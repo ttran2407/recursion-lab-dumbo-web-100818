@@ -8,11 +8,14 @@ printString = (word) => {
   }
 }
 
-
+let newWord = []
 reverseString = (word) => {
-  console.log(word[word.length - 1])
+  word.split("")
+  newWord.push(word[word.length - 1])
   
-  if (word.length > 1){
-    reverseString(word.substring(0, word.length - 2))
+  if (word.length > 0){
+    reverseString(word.slice(-1))
   }
+  
+  return newWord.join("")
 }
