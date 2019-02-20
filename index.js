@@ -10,8 +10,8 @@ printString = (word) => {
 
 let newWord = []
 reverseString = (word) => {
-  word = word.split("")
-  newWord.push(word[word.length - 1])
+  wordString = word.split("")
+  newWord.push(word[wordString.length - 1])
   
   if (word.length > 0){
     reverseString(word.splice(0, word.length-1))
