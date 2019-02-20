@@ -14,7 +14,7 @@ reverseString = (word) => {
   newWord.push(word[word.length - 1])
   
   if (word.length > 0){
-    reverseString(word.slice(-1))
+    reverseString(word.splice(-1))
   }
   
   return newWord.join("")
