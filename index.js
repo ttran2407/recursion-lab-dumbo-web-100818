@@ -19,3 +19,12 @@ reverseString = (word) => {
   
   return newWord.join("")
 }
+
+addUpTo = (array, index) =>{
+  
+}
+
+maxOf = (array) => {
+  
+}
+
